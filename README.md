@@ -5,22 +5,22 @@ This repository supplements the analysis of the _`Mandatory Age Verification for
 ## Jupyter Notebooks
 
 The repository is divided into four parts, each corresponding to a Jupyter notebook that contains distinct aspects of the analysis used to produce our findings. They are elaborated as follows:
-* `analysis_age_estimations_accuracy_and_differences.ipynb`
+* [`analysis_age_estimations_accuracy_and_differences.ipynb`](https://github.com/askoj/dex-model-analysis/blob/main/analysis_age_estimations_accuracy_and_differences.ipynb)
 	This notebook includes the visualisations of the probability distributions used to evaluate age estimation accuracies and differences in age. The corresponding results are given in Figures 4 and 5 of our paper.
-* `analysis_image_segment_activations.ipynb`
+* [`analysis_image_segment_activations.ipynb`](https://github.com/askoj/dex-model-analysis/blob/main/analysis_image_segment_activations.ipynb)
 	This notebook includes the visualisations of the heatmaps necessary to understand to how image segment activations are interacting with racial biases, to influence age estimations. The corresponding results are given in Figures 6 and 7 of our paper.
-* `analysis_statistical_significance.ipynb`
+* [`analysis_statistical_significance.ipynb`](https://github.com/askoj/dex-model-analysis/blob/main/analysis_statistical_significance.ipynb)
 	This notebook includes the statistical tests we undertook to establish statistical significance of our findings. The corresponding results are given in Appendix A of our paper.
-* `analysis_pearson_correlations.ipynb`
+* [`analysis_pearson_correlations.ipynb`](https://github.com/askoj/dex-model-analysis/blob/main/analysis_pearson_correlations.ipynb)
 	This notebook includes the Pearson correlations analysis we undertook to understand how specific image segments were influencing age estimations by race and gender. The corresponding results are given in Appendix B of our paper.
 
 ## Source Code
 
 Additionally, we provide the following annotated source code files that were used to conduct our analysis, and produce our findings:
 
-* `analysis_1_method.py`
-* `analysis_2_evaluate.py`
-* `analysis_3_filter_visualise.py`
+* [`analysis_1_method.py`](https://github.com/askoj/dex-model-analysis/blob/main/analysis_1_method.py)
+* [`analysis_2_evaluate.py`](https://github.com/askoj/dex-model-analysis/blob/main/analysis_2_evaluate.py)
+* [`analysis_3_filter_visualise.py`](https://github.com/askoj/dex-model-analysis/blob/main/analysis_3_filter_visualise.py)
 
 Each of these source code files relate to relevant stages of the analysis.
 
@@ -28,15 +28,15 @@ Each of these source code files relate to relevant stages of the analysis.
 
 In undertaking the analysis of the UTKFace image dataset, we also compiled the following metadatasets:
 
-* `metadataset_utkface_activations.json`
+* [`metadataset_utkface_activations.json`](https://github.com/askoj/dex-model-analysis/blob/main/metadataset_utkface_activations.json)
 
   This file contains the exact image segment activation and age estimation information, for all images we evaluated in our analysis. 
 
 * `metadataset_utkface_attachment.json`
 
-  This file contains the DLIB facial landmark information, for all images we evaluated in our analysis. 
+  This file contains the DLIB facial landmark information, for all images we evaluated in our analysis. _Note: This file exceeds size limitations and will need to be requested from the authors._
 
-* `metadataset_utkface_predictions.json`
+* [`metadataset_utkface_predictions.json`](https://github.com/askoj/dex-model-analysis/blob/main/metadataset_utkface_predictions.json)
 
   This file contains high-level information about age estimations, for all images we evaluated in our analysis. 
 
